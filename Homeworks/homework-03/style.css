@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Page Home */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    height: 60px;
+    background-color: black;
+}
+nav ul {
+    display: flex;
+
+}
+nav ul li a{
+   display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 50px;
+}
+
+.logo a img{
+    width: 50px;
+    height: 50px;
+    padding-left: 50px;
+}
+
+.div-home,  .div-home-02{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    border-collapse: separate;
+    border-spacing: 15px 10px;
+}
+
+.div-home tr th, .div-home-02 tr th {
+    background-color: rgb(218, 218, 218);
+    width: 227px;   
+    height: 150px;
+    box-sizing: border-box;
+}
+
+.div-home tr td, .div-home-02 tr td {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* Page About */
+
+.lyt-lft {
+    width: 60%;
+}
+
+.img-lyt {
+    background-color: rgb(218, 218, 218);
+    width: 100%;
+    height: 400px;
+    margin: 30px;
+}
+
+.lyt-rgt {
+    width: 40%;
+}
+
+.ttl-lyt {
+    margin-left: 30px;
+}
+
+.box {
+    background-color: rgb(218, 218, 218);
+    width: 90%;
+    height: 140px;
+    margin: 30px 30px 3px;
+}
+
+.layout-full {
+    display: flex;
+    gap:30px;
+}
+
+.txt {
+    margin: 0 30px 15px 30px;
+    padding: 0;
+
+}
