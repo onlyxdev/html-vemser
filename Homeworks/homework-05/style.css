@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #D74680;
+    width: 100vw;
+}
+
+.photo-grids {
+    width: 100%;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.img-ongrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perso-tittle {
+    width: 100%;
+}
+
+.tittle-on-pink  {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding-top: 106.49px;
+}
+
+.legend-tittle {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;    
+}
+
+.top-gridder, .bot-gridder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-grider, .legend-grid {
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.bot-gridder p, .top-grider p {
+    color: white;
+    font-family: 'Titillium Web', sans-serif; 
+    font-style: italic;
+    font-size: 15px; 
+    font-style: oblique; 
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.bot-gridder img, .top-grider img {
+    height: 96px;
+    width: 96px;
+}
+
+.legend-align {
+    padding-bottom: 80px;
+}
+

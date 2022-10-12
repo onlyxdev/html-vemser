@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.all-align {
+    display: flex;
+    justify-content: center;
+    padding-top: 6vh;
+}
+
+.card-img-top {
+    border-radius: 50px 50px 0 0;
+}
+
+.photo-top {
+    height: 164px;
+    width: 164px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.perso-card {
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 40px;
+}
+
+.photo-aligner {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    padding-top: 7vh;
+}
+
+.body-card {
+    padding-top: 16vh;
+}
+
+.just-icons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5vh;
+}
+
+.all-buttons {
+    width: 32vw;
+    padding-bottom: 40px;
+}
+
+.dark-perso-btt {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    border-radius: 100px;
+}
+
+.light-perso-btt {
+    background-color: #EFF2F6;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    border-radius: 100px;
+}
+
+.link-text h5{
+    width: 200px;
+}
