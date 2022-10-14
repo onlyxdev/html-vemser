@@ -1,0 +1,45 @@
+@import url(./style.css);
+
+.section-03 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-03 img {
+    width: 95%;
+}
+
+.text-btt-sec03 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5%;
+    text-align: center;
+    gap: 20px;
+}
+
+.text-btt-sec03 .blue-button {
+    font-size: var(--text-size-500);
+}
+
+.logos-sec03 img {
+    height: 90px;
+}
+
+.logos-sec03-l1 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 5%;
+    gap: 10%;
+}
+
+.logos-sec03-l2 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 5%;
+    gap: 10%;
+}

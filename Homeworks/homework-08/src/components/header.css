@@ -1,0 +1,84 @@
+@import url(./style.css);
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    box-sizing: border-box;
+    transition: 0.8s;
+    display: flex;
+    position: fixed;
+}
+
+header:hover {
+    box-shadow: 0px 8px 37px -17px rgba(0,0,0,0.75);
+}
+
+.half-50 {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    box-sizing: border-box;
+}
+
+.half-50 img {
+    cursor: pointer;
+}
+
+.half-50 ul {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a:hover {
+    color: var(--blue-button);
+}
+
+.header-links, .log-header a {
+    color: var(--blue-medium);
+    text-decoration: none;
+    display: flex;
+    font-size: var(--text-size-500);
+}
+
+.half-100 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-right: 0.4%;
+}
+
+.trello-ff {
+    background-color: var(--blue-button);
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.trello-ff:hover {
+    background-color: var(--hover-trello-ff);
+}
+
+.trello-ff a {
+    text-decoration: none;
+    color: white;
+    padding: 0 25px;
+    font-size: var(--text-size-600);
+    font-weight: 500;
+}
+
+.log-header a {
+    font-size: var(--text-size-600);
+    font-weight: 500;
+    padding: 0 25px;
+}

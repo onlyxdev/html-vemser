@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url(./constants.css);
+@import url(./buttons/blue-button.css);
+@import url(./buttons/grey-button.css);
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./section-01.css);
+@import url(./section-02.css);
+@import url(./section-03.css);
+@import url(./section-04.css);
+@import url(./section-05.css);
+@import url(./section-06.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    background: var(--pink-header-down);
+    width: 100%;
+
+}
+
+.container-config {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 80%;
+}
+
+.line-px {
+    border: 1px solid white;
+    opacity: 5%;
+    width: 100%;
+    margin-top: -100px;
+}

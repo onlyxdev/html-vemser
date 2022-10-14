@@ -1,0 +1,34 @@
+@import url(./style.css);
+
+.section-05 {
+    background-color: var(--aqua-blue);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-05 h1 {
+    font-size: var(--text-size-800);
+    width: 55%;
+}
+
+.big-msg-sec05 {
+    display: flex;
+    justify-content: center;
+}
+
+.microtxt-sec05 {
+    display: flex;
+    align-items: center;
+}
+
+.container-txt-sec05 {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.container-txt-sec05 img {
+    height: 70px;
+}

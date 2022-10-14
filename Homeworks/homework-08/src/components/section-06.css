@@ -1,0 +1,58 @@
+@import url(./style.css);
+
+.gradient-card {
+    background: var(--blue-gradient-base);
+    height: 180px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    box-sizing: border-box;
+    margin-top: -80px;
+}
+
+.gradient-card h1 {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.search-gra-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+    gap: 20px;
+}
+
+.search-gra-card input {
+    height: 50px;
+    width: 380px;
+    border: none;
+    border-radius: 4px;
+}
+
+.footer-apps {
+    display: flex;
+    background-color: var(--almost-white);
+    height: 60px;
+    align-items: center;
+    gap: 20px;
+    margin-top: 120px;
+}
+
+.aligner-ft-apps {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: var(--grey-medium);
+}
+
+.aligner-ft-apps2 {
+    display: flex;
+    gap: 20px;
+    margin-left: 90px;
+}
+
+.footer-apps img {
+    height: 40px;
+}

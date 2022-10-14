@@ -1,0 +1,66 @@
+@import url(./style.css);
+
+.footer {
+    background-color: var(--blue-dark);
+    height: 190px;
+    box-sizing: border-box;
+}
+
+.up-footer {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.up-footer h5 {
+    font-size: 11px;
+}
+
+.block-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.block-footer img {
+    height: 35px;
+    width: 120px;
+    padding-bottom: 20px;
+}
+
+.block-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.hover-btt-ft {
+    height: 80%;
+    width: 25%;
+    padding: 25px 15px 10px 15px;
+    color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.hover-btt-ft:hover {
+    background-color: #fff;
+}
+
+.down-footer {
+    display: flex;
+    color: white;
+    align-items: center;
+    height: 70px;
+}
+
+.info-ft {
+    display: flex;
+    color: white;
+    gap: 20px;
+}
+
+.lang-ft {
+    padding-right: 130px;
+}

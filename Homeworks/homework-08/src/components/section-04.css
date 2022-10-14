@@ -1,0 +1,76 @@
+@import url(./style.css);
+
+.feature-sec04 {
+    padding-top: 5%;
+}
+
+.feature-sec04 h2 {
+    width: 30%;
+}
+
+.feature-sec04 p {
+    width: 40%;
+    padding-top: 1%;
+}
+
+.card-sec04 {
+    padding-top: 12%;
+    display: flex;    
+}
+
+.card-sec04 img {
+    height: 300px;
+}
+
+.textc-sec04 {
+    padding-left: 6%;
+}
+
+.textc-sec04 h1 {
+    padding-top: 2%;
+    font-size: var(--text-size-800);
+}
+
+.textc-sec04 p {
+    padding: 4% 0; 
+    font-size: var(--text-size-600);
+    color: var(--grey-medium);
+}
+
+.textc-sec04 a {
+    text-decoration: none;
+    color: var(--blue-dark);
+    font-size: var(--text-size-600);
+    font-weight: 700;
+}
+
+.card-sec04b {
+    padding-top: 6%;
+    display: flex;    
+}
+
+.card-sec04b img {
+    height: 300px;
+}
+
+.textc-sec04b h1 {
+    padding-top: 2%;
+    font-size: var(--text-size-800);
+}
+
+.textc-sec04b {
+    padding-right: 6%;
+}
+
+.textc-sec04b p {
+    padding: 4% 0; 
+    font-size: var(--text-size-600);
+    color: var(--grey-medium);
+}
+
+.textc-sec04b a {
+    text-decoration: none;
+    color: var(--blue-dark);
+    font-size: var(--text-size-600);
+    font-weight: 700;
+}

@@ -1,0 +1,18 @@
+@import url(../style.css);
+
+.grey-button {
+    background-color: var(--almost-white);
+    color: var(--grey-dark);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--text-size-300); 
+    padding: 4px 12px 4px 12px;
+    gap: 4px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-size: var(--text-size-500);
+    font-weight: 700;
+}

@@ -1,0 +1,31 @@
+@import url(./style.css);
+
+:root {
+    /* Text Sizes */
+    --text-size-900: 40px;
+    --text-size-800: 29px;
+    --text-size-700: 24px;
+    --text-size-600: 20px;
+    --text-size-500: 16px;
+    --text-size-400: 14px;
+    --text-size-300: 12px;
+    --text-size-200: 12px;
+    --text-size-100: 11px;
+
+    /* Colors */
+    --blue-button: #0065FF;
+    --blue-medium: #172B4D;
+    --blue-dark: #091E42;
+    --light-blue: #B3F5FF;
+    --hover-buttons-blue: #0052CC;
+    --hover-trello-ff: #0747A6;
+    --grey-medium: #5E6C84;
+    --grey-dark: #505F79;
+    --aqua-blue: #E6FCFF;
+    --almost-white: #F4F5F7;
+    
+    /* Gradients */
+    --pink-header-down: linear-gradient(rgb(234, 230, 255), rgb(255, 255, 255)) no-repeat;
+    --blue-gradient-base: linear-gradient(rgb(64, 50, 148), rgb(76, 154, 255)) no-repeat;
+    
+}

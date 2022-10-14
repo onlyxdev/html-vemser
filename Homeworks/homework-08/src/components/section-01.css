@@ -1,0 +1,59 @@
+@import url(./style.css);
+
+.section-01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+
+.front-sec01 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.front-sec01 h1 {
+    font-size: var(--text-size-900);
+}
+
+.front-sec01 p {
+    font-size: var(--text-size-600);    
+}
+
+.front-sec01 a {
+    padding-left: 20px;
+}
+
+.front-mail {
+    padding-top: 8%;
+    padding-bottom: 4%;
+    display: flex;
+    gap: 15px;
+}
+
+.front-mail input {
+    height: 45px;
+    width: 60%;
+    border-radius: 3px;
+    border: solid 1px black;
+}
+
+.front-mail button {
+    width: 150px;
+    font-size: var(--text-size-500);
+}
+
+.front-sec02 {
+    width: 40%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.front-sec02 img {
+    height: 450px;
+}

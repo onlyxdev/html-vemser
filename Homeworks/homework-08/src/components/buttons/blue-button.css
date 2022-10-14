@@ -1,0 +1,16 @@
+@import url(../style.css);
+
+.blue-button {
+    background-color: var(--blue-button);
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--text-size-300); 
+    padding: 4px 12px 4px 12px;
+    gap: 4px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
